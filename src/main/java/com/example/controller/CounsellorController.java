@@ -21,10 +21,7 @@ import com.example.repo.EnquiryRepo;
 import com.example.service.CousellorService;
 
 @RestController
-@CrossOrigin(
-	    origins = "https://counsellorprojectfrontend01.onrender.com",
-	    allowCredentials = "true"
-	)
+
 public class CounsellorController {
 
     @Autowired
