@@ -22,7 +22,7 @@ import com.example.service.CousellorService;
 
 @RestController
 @CrossOrigin(
-	    origins = "http://localhost:4200",
+	    origins = "https://counsellorprojectfrontend01.onrender.com",
 	    allowCredentials = "true"
 	)
 public class CounsellorController {
